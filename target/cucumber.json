@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12913772700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to register successfully",
+        "description": "",
+        "id": "user-is-register-successfully;user-should-be-able-to-register-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 497032200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 985986300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home",
+            "match": {
+              "location": "MyStepDefs.user_is_on_Home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2377032200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on My Account and Register Button",
+            "match": {
+              "location": "MyStepDefs.user_click_on_My_Account_and_Register_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3845985600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter all required registration detail",
+            "match": {
+              "location": "MyStepDefs.user_enter_all_required_registration_detail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995744600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to register successfully",
+            "match": {
+              "location": "MyStepDefs.user_should_be_able_to_register_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is register successfully",
+    "description": "",
+    "id": "user-is-register-successfully",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Registeration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      },
+      {
+        "line": 1,
+        "name": "@REG"
+      }
+    ]
+  }
+]
